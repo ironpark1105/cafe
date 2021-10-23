@@ -1,0 +1,656 @@
+*{box-sizing: border-box;}
+body{
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+    color: #404040;
+}
+header{
+    margin-top: 30px;
+}
+a{
+    color: #8a8a8a;
+    text-decoration: none;
+}
+a:hover{
+    color: #333;
+}
+.container{
+    width: 1200px;
+} 
+
+header{
+    height: 85px;
+}
+
+.h-85{
+    height: 85px;
+}
+
+nav{
+    width: 100%;
+
+}
+nav .bar{
+    border-left: solid 1px #ddd;
+    
+}
+nav a{
+    font-size: 18px;
+}
+
+nav a:hover, a.active{
+    font-weight: 700;
+    color: #ff5656;
+}
+
+.center{
+    text-align: center;
+}
+.justifycontents{
+    justify-content: space-between;
+}
+
+ul.nav{
+    margin-left: 30px;
+}
+
+
+nav .red{
+    color: #ff5656;
+    margin-left: 15px;
+}
+
+/**slider**/
+.slider{
+    border-bottom: 5px solid #333;
+    padding-top: 55px;
+}
+.rb{
+    padding-bottom: 80px;
+    background: url(../image/토끼새끼.png) no-repeat right bottom;
+}
+
+.slider h1{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.slider h1 label{
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.slider ul a{
+    color: #666;
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-right: 20px;
+}
+.slider ul a:hover,
+ .slider ul .active{
+    font-weight: 700;
+    color: #333;
+}
+
+
+.slider ul span{
+    font-size: 14px;
+    vertical-align: top;
+}
+/* 콘텐츠 */
+
+.content-main{
+    margin-bottom: 146px;
+}
+
+.content{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 86px;
+    font-size: 14px;
+}
+
+
+.content p{
+    color: #666;
+}
+.content a{
+    text-decoration: underline;
+    margin-left: 15px;
+    color: #333;
+}
+.content-img{
+    width: 60px;
+    height: 60px;
+    background-image: url(../image/임영웅.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+.content-img2{
+    width: 60px;
+    height: 60px;
+    background-image: url(../image/3050.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+.content-img3{
+    width: 60px;
+    height: 60px;
+    background-image: url(../image/신장병.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto 0;
+    margin-left: 20px;
+}
+.content-img4{
+    width: 60px;
+    height: 60px;
+    background-image: url(../image/놀이터.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+.content-img5{
+    width: 60px;
+    height: 60px;
+    background-image: url(../image/천사들.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+.content-img6{
+    width: 60px;
+    height: 60px;
+    background-image: url(../image/카페.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto 0;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.container-content{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.content-text{
+    width: 390px;
+    height: 140px;
+    display: flex;
+    line-height: 21px;
+}
+.content-text h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.content-text p{
+    color: #929492;
+    margin-top: 3px;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 13px;
+}
+.content-a{
+    padding-right: 3px;
+}
+.content-a a:first-child{
+    color: #ff5656;
+}
+.content-hover{
+    border: 1px solid #efefef;
+    margin: 10px;
+}
+.content-hover:hover{
+    box-shadow: #404040;
+    box-shadow: 1px 1px 20px #ddd;
+}
+
+.content-hover:first-child{
+    margin-left: 0;
+}
+
+.content-hover:last-child{
+    margin-left: 0;
+}
+
+/* 카페인기글 */
+
+.cafe-hot{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    
+}
+.best{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.best-ul{
+    width: 820px;
+}
+.best-img{
+    width: 110px;
+    height: 70px;
+    background-image: url(../image/joy.png);
+}
+
+.best-img2{
+    width: 110px;
+    height: 70px;
+    background-image: url(../image/협조문.png);
+}
+
+.best-img3{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/cpu.png);
+}
+
+.best-img4{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/안내상.png);
+}
+
+.best-img5{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/베트남.png);
+}
+
+.best-img6{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/도입이.png);
+}
+
+.best-img7{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/공이.png);
+}
+
+.best-img8{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/비오는날.png);
+}
+
+.best-img9{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/세상과.png);
+}
+
+.best-img10{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/밭두렁.png);
+}
+
+.best-img11{
+    width: 110px;
+    height: 70px;
+    
+    background-image: url(../image/졸고.png);
+}
+
+.best-content{
+    display: flex;
+    width: 820px;
+    height: 10%;
+    align-items: center;
+}
+.best-text{
+    margin-left: 30px;
+    display: flex;
+}
+.best-text h2{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.best-text p{
+    margin-left: 22px;
+    font-size: 18px;
+}
+.best-text2{
+    display: flex;
+    margin-left: auto;
+    margin-right: 38px;
+    font-size: 15px;
+}
+.best-text2 .p{
+    text-align: center;
+    width: 25px;
+    border: 1px solid #666;
+    border-radius: 20%;
+}
+
+.best-text2 p:last-child{
+    color: #ff5a83;
+    padding-left: 2px;
+}
+.best-text2 p:first-child{
+    margin-right: 20px;
+    color: #959595;
+}
+
+.best-main-text{
+    display: flex;
+    padding-bottom: 30px;
+}
+.best-main-text h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.best-main-text .span{
+
+    margin-left: auto;
+}
+.best-main-text span{
+    font-size: 20px;
+    font-weight: 400;
+}
+.best-main-text span:nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+}
+.li{
+    text-align: center;
+}
+/* ******************notice****************************** */
+.notice{
+    width: 380px;
+    padding-left: 56px;
+}
+.notice-two{
+    position: relative;
+    display: flex;
+}
+.notice-one h2{
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 26px;
+}
+.notice-two p{
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 26px;
+}
+.notice .notice-two p{    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333;
+}
+.notice .notice-two span{    
+    position: absolute;
+    font-size: 16px;
+    color: red;
+    left: 200px;
+    top: 36px;
+}
+.notice-one p{
+    font-size: 12px;
+    
+    line-height: 28px;
+}
+
+.notice-one2 h2{
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 26px;
+    padding-top: 64px;
+}
+.fan{
+    width: 100%;
+    height: 500px;
+    background-color: #f8f8f8;
+    margin-top: 64px;
+}
+.fan-main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fan-box{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.fan-top{
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 22px;
+}
+
+.fan-top h2{
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 6px;
+    padding-left: 4px;
+}
+.fan-top p{
+    margin-left: auto;
+    font-weight: 600;
+    
+    padding-top: 20px;
+}
+.fan-top-img{
+    background-image: url(../image/팬카페\ 아이콘.png);
+    width: 40px;
+    height: 40px;    
+}
+.fan-content{
+    margin-right: 40px;
+    width: 33%;
+    height: 320px;
+    background-color: white;
+}
+
+.fan-content:hover{
+    box-shadow: #404040;
+    box-shadow: 1px 1px 20px #ddd;
+}
+
+
+.fan-content:nth-child(3){
+    margin-right: 0px;
+}
+.fan-content-img{
+    width: 100%;
+    height: 190px;
+    background-image: url(../image/임영웅\ 팬카페.png);
+}
+
+.fan-content-img2{
+    width: 100%;
+    height: 190px;
+    background-image: url(../image/박선진.png);
+}
+
+.fan-content-img3{
+    width: 100%;
+    height: 190px;
+    background-image: url(../image/정동원.png);
+}
+.fan-content-text-img{
+    width: 64px;
+    height: 64px;
+    background-image: url(../image/임영웅팬카페원.png);
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.fan-content-text-img2{
+    width: 64px;
+    height: 64px;
+    background-image: url(../image/박서진\ 아이콘.png);
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.fan-content-text-img3{
+    width: 64px;
+    height: 64px;
+    background-image: url(../image/정동원\ 아이콘.png);
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.fan-content-text{
+    display: flex;
+}
+
+.fan-content-text ul{
+    display: flex;
+}
+
+.fan-content-text h2{
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+.fan-content-text ul li{
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-right: 20px;
+    list-style: disc;
+    font-weight: 600;
+    color: #666;
+}
+
+
+.fan-content-text ul li:first-child::marker{
+    color: blue;
+}
+
+.fan-content-text ul li:last-child::marker{
+    color: red;
+}
+
+.fan-content-text-main{
+    margin-left: 22px;
+    margin-top: 40px;
+}
+
+.list-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.list ul{
+    display: flex;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.list ul li{
+    margin-left: 20px;
+}
+
+.list ul li:first-child{
+    margin-left: 0px;
+}
+
+.ranking{
+    display: flex;
+    margin-top: 62px;
+    margin-bottom: 42px;
+}
+
+
+.ranking h2{
+font-size: 30px;
+font-weight: 700;
+color: black;
+}
+
+.ranking p{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.first a{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.list ul li a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 6px #ea2129;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+.list ul li a:hover::after{
+    transform: scaleX(1);
+}
+.list ul li a:after{  
+    transform-origin:  0% 50%; 
+}
+.list2{
+    padding-bottom: 36px;
+}
+.list2-img{
+    width: 70px;
+    height: 30px;
+    background-image: url(../image/cafe\ \ 로고.png);
+    margin-bottom: 18px;
+    margin-top: 150px;
+}
+
+
+.list2 ul{
+    display: flex;
+}
+.list2 ul li{
+font-size: 12px;
+margin-left: 30px;
+}
+
+.list2 ul li:first-child{
+   margin-left:20px;
+}
+
+.list2 ul li{
+    list-style: disc;
+}
+
+
+.list2 div p{
+    margin-top: 10px;
+}
